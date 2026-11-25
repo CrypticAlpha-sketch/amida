@@ -1,0 +1,10 @@
+{
+  "name": "pdf-editor-build",
+  "private": true,
+  "description": "Pinned libraries that build.py inlines into index.html",
+  "scripts": { "build": "python3 build.py" },
+  "devDependencies": {
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "3.11.174"
+  }
+}
